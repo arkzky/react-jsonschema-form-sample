@@ -5,8 +5,10 @@ import { samples } from "./samples";
 import * as serviceWorker from './serviceWorker';
 import './index.css';
 
-// import Form from "@rjsf/core";
-import Form from "react-jsonschema-form-bs4";
+import 'bootstrap-4-migrate/css/bootstrap-4-migrate.min.css';
+
+import Form from "@rjsf/core";
+// import Form from "react-jsonschema-form-bs4";
 
 
 // Import resume schema
